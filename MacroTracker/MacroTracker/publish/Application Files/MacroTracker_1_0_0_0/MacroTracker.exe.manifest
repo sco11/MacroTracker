@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="MacroTracker.exe" version="1.0.0.0" publicKeyToken="9a503b20d65a8f86" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="MacroTracker" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="MacroTracker.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the 
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward 
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="MacroTracker.exe" size="36352">
+      <assemblyIdentity name="MacroTracker" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>ouKZxwGgnaAs/9btd1UFa33P+doMOEBCphFQU5SvSTU=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="MacroTracker.exe.config" size="187">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>xm4bo26HQ0LNVwz1vdPYtzhkpMnp2AI5i+f0b+OahTI=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=steve-PC\steve" issuerKeyHash="64db4ecb83f357001852e045fa20f92b5e450884" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>tk38q6UAKmlroIyJPzQ4GqckpBYQmpE5PhDHD3A6ETs=</DigestValue></Reference></SignedInfo><SignatureValue>Qp6j/wK8EU4adWwNDVfiR3Zh4tQKwov8RyGKfB7rQavF4IaK7jL+MMlqyks93llyMiEQk0+J/5bH6xPqpkFO9jFLK3eXvNgYqtydMV3IUIbJCshkEUOEZP4sQjleNHwJYnmxN6aDh4quBR91T1ican6/6+f6dWyF22fWraYUPZo=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>wGC9G1cRLFS5pVnDKP1c8XtMuNduYtJoJl2RkEJ4bsi8LNwRfbyt4iRENj5dlz6qB1szHt8DuU/qXYEbslnA44fITsyLnNv8pQdpHsGKNlaCb+8Sy10vRYUYdcsorWbQKaiG934SXLzaxjoqtBGCmg0YWUS/zVJQXUZjUrySnvE=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="3b113a700fc7103e39919a1016a424a71a38343f898ca06b692a00a5abfc4db6" Description="" Url=""><as:assemblyIdentity name="MacroTracker.exe" version="1.0.0.0" publicKeyToken="9a503b20d65a8f86" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=steve-PC\steve</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>vFTcCtidg12fE9AR+x8x6LNb/MMLm+7g7LzaGbp5rcs=</DigestValue></Reference></SignedInfo><SignatureValue>s5AzJnMYrcyrjRL3o+V1Er3vclzBJGdqYXOXs64AIckcyfs5mz+P+UMbmjsV+BkPUP1IwtckKyXUhIH5oT1Fhojq/KIVG1JRTTD2QcCZ9fTceYq4yaKjkVQw5WKGSJF3q5oi3qXLfc0WEDlmyekeldQWod4B+k9+bbO8jRNmv28=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>wGC9G1cRLFS5pVnDKP1c8XtMuNduYtJoJl2RkEJ4bsi8LNwRfbyt4iRENj5dlz6qB1szHt8DuU/qXYEbslnA44fITsyLnNv8pQdpHsGKNlaCb+8Sy10vRYUYdcsorWbQKaiG934SXLzaxjoqtBGCmg0YWUS/zVJQXUZjUrySnvE=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB0TCCATqgAwIBAgIQLzHQfuuxT7xPHpVJA8su6jANBgkqhkiG9w0BAQsFADAnMSUwIwYDVQQDHhwAcwB0AGUAdgBlAC0AUABDAFwAcwB0AGUAdgBlMB4XDTE0MDEwNjA4MjkyNFoXDTE1MDEwNjE0MjkyNFowJzElMCMGA1UEAx4cAHMAdABlAHYAZQAtAFAAQwBcAHMAdABlAHYAZTCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEAwGC9G1cRLFS5pVnDKP1c8XtMuNduYtJoJl2RkEJ4bsi8LNwRfbyt4iRENj5dlz6qB1szHt8DuU/qXYEbslnA44fITsyLnNv8pQdpHsGKNlaCb+8Sy10vRYUYdcsorWbQKaiG934SXLzaxjoqtBGCmg0YWUS/zVJQXUZjUrySnvECAwEAATANBgkqhkiG9w0BAQsFAAOBgQBSo11000ZZ3pIhLqWDzBetc0VF9ihpmN4RUW9HrXFOEUa0RgUME+6E2YE/9odVHs1RWH/hJY4qu7uvU46cKCzSjt+/9B2vLQvrxaGmsovrQ29ED2mytxhC/wiTVAC5OLO8ko/CMkqGAjh3qgyhrfv9RzXcjGQVKDlIi0Zb31GjOw==</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>

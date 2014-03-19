@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<MacroPlan xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <calorieGoal>2000</calorieGoal>
+  <proteinGoal>100</proteinGoal>
+  <carbGoal>100</carbGoal>
+  <fatGoal>100</fatGoal>
+</MacroPlan>

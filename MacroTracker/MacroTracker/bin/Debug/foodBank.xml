@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<ArrayOfFood xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Food>
+    <name>a</name>
+    <calories>1000</calories>
+    <protein>0</protein>
+    <carbs>0</carbs>
+    <fats>0</fats>
+    <servingSize />
+  </Food>
+  <Food>
+    <name>test</name>
+    <calories>500</calories>
+    <protein>10</protein>
+    <carbs>10</carbs>
+    <fats>10</fats>
+    <servingSize>c</servingSize>
+  </Food>
+</ArrayOfFood>

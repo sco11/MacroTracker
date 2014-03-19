@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<foods>
+  <food>
+    <name>shake</name>
+    <calories>400</calories>
+    <protein>60</protein>
+    <carbs>20</carbs>
+    <fats>3</fats>
+    <servingSize>1 bottle</servingSize>
+  </food>
+  <food>
+    <name>tuna</name>
+    <calories>200</calories>
+    <protein>30</protein>
+    <carbs>4</carbs>
+    <fats>8</fats>
+    <servingSize>2 cans</servingSize>
+  </food>
+</foods>
